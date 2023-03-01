@@ -17,7 +17,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import Link from 'next/link'
 
 const navigation = [
   { name: 'Home', href: '/' },
