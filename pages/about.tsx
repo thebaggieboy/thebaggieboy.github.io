@@ -9,7 +9,7 @@ const links = [
   export default function about() {
     return (
       
-    <div className="p-10"> <br /><br /><br />
+    <div className="p-10"> <br />
               <div className="container">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               About Me
