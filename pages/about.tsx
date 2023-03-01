@@ -10,7 +10,7 @@ const links = [
     return (
       
     <div className="p-10"> <br /><br /><br />
-              <div className="container mt-10 pl-5">
+              <div className="container">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               About Me
               </h1> <br /> <hr />
