@@ -12,7 +12,8 @@ type Products ={
 
 }
 
-  export default function Portfolio({products}:any) {
+
+  export default function Portfolio({products}:Products) {
       products = [
       {
         id: 1,
