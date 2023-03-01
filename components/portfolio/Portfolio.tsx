@@ -1,5 +1,15 @@
 import Image from "next/image"
 
+  type products ={
+    id:number;
+    name:string;
+    href:string;
+    description:string;
+    imageSrc:string;
+    imageAlt:string;
+
+  }
+
   const products = [
     {
       id: 1,
