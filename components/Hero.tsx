@@ -30,7 +30,7 @@ export default function Hero() {
               I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
              
               </p> <br/>
-              <a href="../Resume.pdf" className='inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</a>
+              <a href="../Resume.pdf" whileHover={{scale:1.5}} className='inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</a>
               
             </div>
           </div>
