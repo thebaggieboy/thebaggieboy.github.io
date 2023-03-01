@@ -2,7 +2,17 @@ import Image from "next/image"
 import { useState } from "react"
   
 
-  export default function Portfolio({products}) {
+type Products ={
+  id:number;
+  name:string;
+  href:string;
+  description:string;
+  imageSrc:string;
+  imageAlt:string;
+
+}
+
+  export default function Portfolio({products}:Products) {
       products = [
       {
         id: 1,
