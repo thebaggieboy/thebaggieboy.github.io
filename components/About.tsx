@@ -20,7 +20,7 @@ const links = [
 
             </p> <br /><br />
            <div id="about" className="mx-auto ">
-           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">About me</h2>
+           <h2 className="text-4xl font-bold tracking-tight pt-4 text-black sm:text-6xl">About me</h2>
             <p className="mt-5 text-sm leading-6 text-gray-600">
        I love enjoy solving complex problems by creating functional applications. 
             I started with Python and moved on to creating dynamic websites using PHP, Javascript, and Python as my backend language.
