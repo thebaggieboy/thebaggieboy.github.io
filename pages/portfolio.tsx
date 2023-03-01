@@ -25,7 +25,7 @@ type Products ={
       {
         id: 2,
         name: 'cfd360',
-        href: 'https://cfd360-k5mt.onrender.com/',
+        href: 'https://cfd360.up.railway.app',
         description: 'A proof of concept investment based platform with high admin functionalities for verifyings accounts, and user ability to make deposiits and withdrawals.',
         imageSrc: '/media/cfd360.png',
         imageAlt: 'cant display image',
