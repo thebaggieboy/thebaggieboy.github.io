@@ -15,16 +15,16 @@ const links = [
               About Me
               </h1> <hr />
               <p className="mt-2 text-sm leading-7 text-gray-600">
-              Enimofe Odujirin is a highly skilled Fullstack web developer, Cloud Architect and Entrepreneur with over five (5) years of experience in web programming and fullstack development. He has a passion for innovation and technology and enjoys solving complex problems by creating executable and functional live applications.
+              Enimofe Odujirin is a highly skilled Fullstack web developer, Cloud Architect and Entrepreneur with over five (5) years of experience in web programming and fullstack development. I have a passion for innovation and technology and i enjoy solving complex problems by creating executable and functional live applications.
 
-I started my tech career by learning Python and creating scripts for performing specific tasks. This foundational knowledge helped him develop a strong understanding of programming, which allowed him to move beyond design aspects and create dynamic websites using server-side code such as PHP and Python.
+I started my tech career by learning Python and creating scripts for performing specific tasks. This foundational knowledge helped me develop a strong understanding of programming, which allowed him to move beyond design aspects and create dynamic websites using server-side code such as PHP, Javascript and Python.
 
-I have also worked with web frameworks such as Flask and Django, which have optimized his development approach by implementing an MVC (Model-View-Controller) architecture. This approach has provided him with a solid understanding of database models, views, and URLs when creating fullstack applications.
+I have also worked with web frameworks such as Flask and Django, which have optimized my development approach by implementing an MVC (Model-View-Controller) architecture. This approach has provided me with a solid understanding of database models, views, and URLs when creating fullstack applications.
 
 My expertise spans various backend and frontend libraries/frameworks such as Python, Flask, Django, DRF (Django Rest Framework), ReactJS, NextJS, Postgresql, tailwindcss, chakraui, bootstrap, and other interesting frontend and backend libraries/frameworks.
 
-In conclusion,  myvast experience in web programming and fullstack development, combined with his passion for innovation and technology, makes him an excellent candidate for any project or position requiring a Fullstack web developer with a proven track record of creating innovative solutions to existing problems. 
-              </p> <br/>
+In conclusion,  my vast experience in web programming and fullstack development, combined with his passion for innovation and technology, makes him an excellent candidate for any project or position requiring a Fullstack web developer with a proven track record of creating innovative solutions to existing problems. 
+              </p> <br/> <br />
 
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Tech Stack

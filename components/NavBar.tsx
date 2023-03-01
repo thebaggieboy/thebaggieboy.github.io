@@ -20,7 +20,6 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Blog', href: 'https://baggieblog.up.railway.app/' },
 ]

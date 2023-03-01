@@ -8,20 +8,28 @@ const links = [
   
   export default function About() {
     return (
-      <div className="relative isolate overflow-hidden  py-24 sm:py-32">
-      
-        
+      <div className="relative isolate overflow-hidden">
       
         <div className="mx-auto p-20 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">What i do ?</h2>
-            <p className="mt-6 text-sm leading-6 text-gray-800">
+            <p className="mt-3 text-sm leading-6 text-gray-800">
             My name is <b className="text-bold text-underline">Enimofe Odujirin</b> and i am a lover of innovation & technology, I am a Fullstack Developer & Cloud Architect based in Lagos, Nigeria. I am skilled in working with wide range of front and back-end technologies to produce and evaluate functional and efficient code, applications. Currently i am experimenting with APIS and database models, looking towards improving my efficiency in building fast data-driven applications like geolocation systems and other intensive data driven applications.
 
 
-            </p>
-          </div>
-          <div className="mx-auto mt-5 max-w-2xl lg:mx-0 lg:max-w-none">
+            </p> <br /><br />
+           <div className="mx-auto ">
+           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">About me</h2>
+            <p className="mt-5 text-sm leading-6 text-gray-600">
+            Enimofe Odujirin is a skilled Fullstack web developer, Cloud Architect and Entrepreneur with 5 years of experience. I love innovation and 
+            technology and enjoy solving complex problems by creating functional applications. 
+            I started with Python and moved on to create dynamic websites using PHP, Javascript, and Python.
+             I have also worked with popular web frameworks such as Flask and Django, which use a Model-View-Controller approach. 
+             My expertise includes <b className="text-bold text-underline"> Python, Flask, Django, ReactJS, Postgresql, tailwindcss, chakraui, and bootstrap,</b> among others. 
+             I am a strong candidate for any project or position requiring a Fullstack web developer who can create innovative solutions.      </p> 
+           </div>
+          </div><br/>
+          <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-y-6 gap-x-6 leading-6 text-dark sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
                 <a key={link.name}  href={link.href}>
