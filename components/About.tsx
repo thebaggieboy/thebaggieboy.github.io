@@ -1,7 +1,7 @@
 const links = [
     { name: 'Frontend Development', href: '#' , description:"I build simple static and dynamic websites, sleek and attractive landing pages, e-commerce websites & other interesting frontend UI(User Interface). I build fast and efficient Single Page Applications using React & NEXTjs."},
     { name: 'Backend Development', href: '#' , description:"I build and maintain fast, scalable and efficient models used for building simple to robust backend systems infrastructure and APIS. Scripting of cache controllers and application load balancers to help balance traffic on servers."},
-    { name: 'Scripting', href: '' , description:"I write scripts that scrape the internet, perform custom tasks as instructed and build bots to perform any task needed. This range from web scrapers & crawlers to custom data science tools written in python"},
+    { name: 'Scripting & Web3', href: '' , description:"I write scripts that scrape the internet, perform custom tasks as instructed and build bots to perform any task needed. This range from web scrapers & crawlers to custom data science tools written in python."},
     { name: 'Cloud Architecture', href:'', description: 'I make use of AWS to host & create cloud based infrastructure, i build secure and scalable cloud based application logic. I scale applications from regular shared hosting to cloud based hosting helping to save resources and build an efficient, modern hosting process.' },
   ]
   
