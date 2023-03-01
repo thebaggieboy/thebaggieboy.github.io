@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-  type products ={
+  type Products ={
     id:number;
     name:string;
     href:string;
@@ -40,7 +40,7 @@ import Image from "next/image"
   ]
   
   
-  export default function Portfolio() {
+  export default function Portfolio({products}:Products) {
     
     return (
       <div className="relative isolate overflow-hidden  py-24 sm:py-32">
