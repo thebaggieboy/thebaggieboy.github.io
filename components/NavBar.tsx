@@ -1,6 +1,7 @@
 import { useState, Fragment } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Popover, Transition } from '@headlessui/react'
+import Link from 'next/link'
 import {
   ArrowPathIcon,
   Bars3Icon,

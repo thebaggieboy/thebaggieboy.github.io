@@ -16,7 +16,7 @@ const links = [
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">What i do ?</h2>
             <p className="mt-6 text-sm leading-6 text-gray-800">
-            My name is <b className="text-bold text-underline">Enimofe Odujirin</b> and i am a lover of innovation & technology, I am a Fullstack Developer & Cloud Architect based in Lagos, Nigeria. I am skilled in working with wide range of front and back-end technologies to produce and evaluate functional and efficient code, applications. Currently i'm experimenting with APIS and database models, looking towards improving my efficiency in building fast data-driven applications like geolocation systems and other intensive data driven applications.
+            My name is <b className="text-bold text-underline">Enimofe Odujirin</b> and i am a lover of innovation & technology, I am a Fullstack Developer & Cloud Architect based in Lagos, Nigeria. I am skilled in working with wide range of front and back-end technologies to produce and evaluate functional and efficient code, applications. Currently i am experimenting with APIS and database models, looking towards improving my efficiency in building fast data-driven applications like geolocation systems and other intensive data driven applications.
 
 
             </p>
