@@ -23,14 +23,14 @@ export default function Hero() {
 
             </div> 
             <div className="text-center mx-auto p-5">
-              <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.1, duration:0.5}} className="text-4xl  mt-1 font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.1, duration:0.6}} className="text-4xl  mt-1 font-bold tracking-tight text-gray-900 sm:text-6xl">
               Software Engineer, Founder & Entrepreneur
               </motion.h1>
               <p className="mt-6 text-sm leading-6 text-gray-600">
               I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
              
               </p> <br/>
-              <motion.a href="../Resume.pdf" whileHover={{scale:1.5}} className='inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</motion.a>
+              <motion.a href="../Resume.pdf" initial={{opacity:0}} animate={{opacity:1}} whileHover={{scale:1.5}} transition={{delay:0.4, duration:0.6}} className='inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</motion.a>
               
             </div>
           </div>
