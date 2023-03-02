@@ -15,7 +15,7 @@ const links = [
           <div className="mx-auto max-w-2xl lg:mx-0">
 
             <p className="mt-3 text-sm leading-6 text-gray-800">
-            My name is <b className="text-bold text-underline">Enimofe Odujirin</b> a lover of innovation & technology, a fullstack developer & cloud architect with 4 ( four ) years of professional experience based in Lagos, Nigeria.  Currently i am experimenting with APIS and database models, looking towards improving my efficiency in building fast data-driven applications like geolocation systems and other intensive data driven applications.
+            My name is <b className="text-bold text-underline">Enimofe Odujirin</b> a lover of innovation & technology, a fullstack developer & cloud architect with 4 ( four ) years of professional experience based in Lagos, Nigeria.  Currently i am experimenting with APIS and database models, looking towards improving my efficiency in building fast data-driven applications like geolocation systems and other intensive high traffic data driven applications.
 
 
             </p> <br /><br />
