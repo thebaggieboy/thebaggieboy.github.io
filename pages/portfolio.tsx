@@ -16,16 +16,16 @@ type Products ={
       products = [
       {
         id: 1,
-        name: 'SurveyMe',
-        href: 'https://survey-me.vercel.app',
-        description: 'A website for creating and gathering surveys on a topic.',
-        imageSrc: '/media/survey-me.png',
+        name: 'exodox',
+        href: 'https://exodox.onrender.com',
+        description: 'An ecommerce website',
+        imageSrc: '/media/exodox.png',
         imageAlt: 'cant display image',
       },
       {
         id: 2,
         name: 'cfd360',
-        href: 'https://cfd360.up.railway.app',
+        href: 'https://cfd360-k5mt.onrender.com',
         description: 'A proof of concept investment based platform with high admin functionalities for verifying accounts, and user ability to make deposits and withdrawals.',
         imageSrc: '/media/cfd360.png',
         imageAlt: 'cant display image',
@@ -33,7 +33,7 @@ type Products ={
       {
         id: 3,
         name: 'baggieblog',
-        href: 'https://baggieblog.up.railway.app/',
+        href: 'https://baggieblog.onrender.com',
         description: 'A blog application with full authentication abilities for posting and reading contents.',
         imageSrc: '/media/baggieblog.png',
         imageAlt: 'cant display image.',
