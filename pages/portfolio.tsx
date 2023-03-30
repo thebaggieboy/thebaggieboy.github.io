@@ -19,7 +19,7 @@ type Products ={
         name: 'QRCode Generator',
         href: 'qrcode-generator-1m1u1egjh-thebaggieboy.vercel.app',
         description: 'An ecommerce website',
-        imageSrc: '/media/exodox.png',
+        imageSrc: '/media/qr.png',
         imageAlt: 'cant display image',
       },
       {
