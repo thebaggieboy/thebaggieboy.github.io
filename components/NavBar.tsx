@@ -21,7 +21,8 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Blog', href: 'https://baggieblog.up.railway.app/' },
+  { name: 'Contact', href: '/contact' },
+  { name: 'Blog', href: 'https://baggieblog.onrender.com' },
 ]
 
 
@@ -33,7 +34,7 @@ export default function NavBar() {
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       
       </div>
-      <div className="px-6 pt-6 lg:px-8">
+      <div className="px-4 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">

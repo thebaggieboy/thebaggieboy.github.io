@@ -16,8 +16,8 @@ type Products ={
       products = [
       {
         id: 1,
-        name: 'exodox',
-        href: 'https://exodox.onrender.com',
+        name: 'QRCode Generator',
+        href: 'qrcode-generator-1m1u1egjh-thebaggieboy.vercel.app',
         description: 'An ecommerce website',
         imageSrc: '/media/exodox.png',
         imageAlt: 'cant display image',
