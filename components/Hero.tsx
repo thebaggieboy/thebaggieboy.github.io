@@ -24,7 +24,7 @@ export default function Hero() {
             </div> 
             <div className=" mx-auto p-5">
               <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.2, duration:0.6}} className="text-4xl  mt-1 font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Software Engineer, Founder & Entrepreneur
+              Software Engineer & Fullstack Developer
               </motion.h1>
               <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2, duration:0.8}} className="mt-6 text-sm leading-6 text-gray-600">
               I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.

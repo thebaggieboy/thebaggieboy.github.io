@@ -26,7 +26,7 @@ type Products ={
         id: 2,
         name: 'cfd360',
         href: 'https://cfd360-k5mt.onrender.com',
-        description: 'A proof of concept investment based platform with high admin functionalities for verifying accounts, and user ability to make deposits and withdrawals.',
+        description: 'An investment based platform with high admin functionalities for verifying accounts, and user ability to make crypto deposits and withdrawals.',
         imageSrc: '/media/cfd360.png',
         imageAlt: 'cant display image',
       },
