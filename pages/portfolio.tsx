@@ -18,25 +18,28 @@ type Products ={
         id: 1,
         name: 'QRCode Generator',
         href: 'qrcode-generator-1m1u1egjh-thebaggieboy.vercel.app',
-        description: 'A webapp for generating and saving QR codes for URLS',
+        description: 'A webapp for generating and saving QR codes for URLS. It was developed using vanilla js and a QRcode api',
         imageSrc: '/media/qr.png',
         imageAlt: 'cant display image',
+        stack:"vanilla js, HTML, QRcode API"
       },
       {
         id: 2,
         name: 'cfd360',
         href: 'https://cfd360-k5mt.onrender.com',
-        description: 'An investment based platform with high admin functionalities for verifying accounts, and user ability to make crypto deposits and withdrawals.',
+        description: 'An investment based platform with high admin functionalities for verifying accounts, and user ability to make crypto deposits and withdrawals. This application was developed using django as my backend language and HTML, CSS & JS on the frontend',
         imageSrc: '/media/cfd360.png',
         imageAlt: 'cant display image',
+        stack:"HTML, CSS, JS, Bootstrap, Django, postgresql"
       },
       {
         id: 3,
         name: 'baggieblog',
         href: 'https://baggieblog.onrender.com',
-        description: 'A blog application with full authentication abilities and a WYSIWYG markdown editor for posting and reading contents. ',
+        description: 'A blog application with full authentication abilities and a WYSIWYG markdown editor for posting and reading contents posted by users.',
         imageSrc: '/media/baggieblog.png',
         imageAlt: 'cant display image.',
+        stack:"HTML, Bootstrap, FlASK, SQLAlchemy, SQLite"
       },
     
      
@@ -82,9 +85,9 @@ type Products ={
               <h2 className="mt-4 text-lg text-gray-700">{product.name}</h2>
               <p className="mt-1 text-md font-medium text-gray-900">
                
+                <p className="lead font-semibold">{product.description}</p>
 
-                <p className="text-sm">{product.description}</p>
-                <a href={product.href} className="text-sm py-5 text-gray-500 bold">{product.href}</a>
+                <p className="text-sm py-5 text-gray-500 bold">Tech Stack: {product.stack}</p>
               </p>
             </a>
           ))}

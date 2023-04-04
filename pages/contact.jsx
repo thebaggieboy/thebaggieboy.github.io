@@ -1,7 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Contact() {
-    
+    const [email, setEmail] = useState();
+    const [subject, setSubject] = useState();
+    const [message, setMessage] = useState();
+    const [messageStatus, setMessageStatus] = useState(false);
+
+
+
+    const submitForm = async(e)=>{
+        e.preventDefault();
+
+        await fetch('/api/contact', {
+            method: "POST",
+            headers : {
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify({
+                email,
+                subject,
+                message,
+                messageStatus
+            })
+        })
+
+        
+    }
 
 
   return (
@@ -13,17 +37,17 @@ export default function Contact() {
       <form  className="space-y-8">
           <div>
               <label htmlFor="email" className="block mb-2 text-sm font-medium text-black">Your email</label>
-              <input type="email"  id="email" className="shadow-sm bg-gray-50 border p-3 rounded w-full border-gray-300 shadow-sm" placeholder="johndoe@mail.com" required />
+              <input type="email" name='email' onChange={e => setEmail(e.target.value)}  id="email" className="shadow-sm bg-gray-50 border p-3 rounded w-full border-gray-300 shadow-sm" placeholder="johndoe@mail.com" required />
           </div>
           <div>
               <label htmlFor="subject" className="block mb-2 text-sm font-medium text-black">Subject</label>
-              <input type="text" id="subject" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm " placeholder="Let us know how we can help you" required/>
+              <input type="text" name='subject' onChange={e => setSubject(e.target.value)}  id="subject" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm " placeholder="Let us know how we can help you" required/>
           </div>
           <div className="sm:col-span-2">
               <label htmlFor="message" className="block mb-2 text-sm font-medium text-black ">Your message</label>
-              <textarea id="message" rows="6" className="block p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm  text-sm text-black" placeholder="Leave a comment..."></textarea>
+              <textarea id="message" name='message' onChange={e => setMessage(e.target.value)}  rows="6" className="block p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm  text-sm text-black" placeholder="Leave a comment..."></textarea>
           </div>
-          <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit">Send message</button>
+          <button onClick={submitForm} type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit">Send message</button>
       </form>
   </div>
 </section>
