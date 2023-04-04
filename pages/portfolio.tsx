@@ -61,6 +61,10 @@ type Products ={
               You can explore from my list of past projects, my portfolio majorly consists of live web apps, and other custom scripted programs like automation bots, web crawlers, IP location finder, CSV file sorting etc.
               
             </p>
+            <p className='font-light text-center'>
+              You can access my github repository by clicking the button below
+            </p>
+            <a href="" > Go to my github</a>
           </div>
          
         </div>
