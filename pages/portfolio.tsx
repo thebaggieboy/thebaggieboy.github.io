@@ -18,16 +18,16 @@ type Products ={
         id: 1,
         name: 'QRCode Generator',
         href: 'qrcode-generator-1m1u1egjh-thebaggieboy.vercel.app',
-        description: 'A webapp for generating and saving QR codes for URLS. It was developed using vanilla js and a QRcode api',
+        description: 'A webapp for generating and saving QR codes for URLS. ',
         imageSrc: '/media/qr.png',
         imageAlt: 'cant display image',
-        stack:"vanilla js, HTML, QRcode API"
+        stack:"vanilla js, HTML, QRcode API (pa11y)"
       },
       {
         id: 2,
         name: 'cfd360',
         href: 'https://cfd360-k5mt.onrender.com',
-        description: 'An investment based platform with high admin functionalities for verifying accounts, and user ability to make crypto deposits and withdrawals. This application was developed using django as my backend language and HTML, CSS & JS on the frontend',
+        description: 'An investment based platform with high admin functionalities for verifying accounts, and user ability to make crypto deposits and withdrawals.',
         imageSrc: '/media/cfd360.png',
         imageAlt: 'cant display image',
         stack:"HTML, CSS, JS, Bootstrap, Django, postgresql"
