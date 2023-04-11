@@ -59,12 +59,11 @@ type Products ={
             <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">Here are some projects i have worked on</h2>
             <p className="mt-6 text-sm leading-6 text-gray-600">
               You can explore from my list of past projects, my portfolio majorly consists of live web apps, and other custom scripted programs like automation bots, web crawlers, IP location finder, CSV file sorting etc.
-              
-            </p>
-            <p className='font-light text-center'>
+              <br />
               You can access my github repository by clicking the button below
             </p>
-            <a href="" > Go to my github</a>
+            
+            <a href="" className="p-2 text-white bg-dark rounded"> Go to my github</a>
           </div>
          
         </div>
