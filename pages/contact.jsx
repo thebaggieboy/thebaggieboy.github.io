@@ -4,7 +4,7 @@ export default function Contact() {
     const [email, setEmail] = useState();
     const [subject, setSubject] = useState();
     const [message, setMessage] = useState();
-    const [messageStatus, setMessageStatus] = useState(false);
+    //const [messageStatus, setMessageStatus] = useState(false);
 
 
 
@@ -20,7 +20,7 @@ export default function Contact() {
                 email,
                 subject,
                 message,
-                messageStatus
+                
             })
         })
 

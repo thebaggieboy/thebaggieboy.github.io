@@ -1,10 +1,10 @@
 export default function handler(req, res){
-    const {email, subject, message, messageStatus} = req.body;
-    res.json({email, subject, message, messageStatus});
+    const {email, subject, message} = req.body;
+    res.json({email, subject, message});
     res.status = 200
 
-    messageStatus = true;
+    
    
 
-    console.log(`Email: ${email} \n Subject: ${subject} \n Message: ${message} \n Status" ${messageStatus}`);
+    console.log(`Email: ${email} \n Subject: ${subject} \n Message: ${message} \n `);
 }
