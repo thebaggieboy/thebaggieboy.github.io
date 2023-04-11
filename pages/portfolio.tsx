@@ -62,8 +62,8 @@ type Products ={
               <br />
               You can access my github repository by clicking the button below
             </p>
-            
-            <a href="" className="p-2 text-white bg-dark rounded"> Go to my github</a>
+            <br/>
+            <a href="https://github.com/thebaggieboy" className="p-2 text-white bg-dark rounded"> Go to my github</a>
           </div>
          
         </div>
