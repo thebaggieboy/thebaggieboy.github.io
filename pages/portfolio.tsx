@@ -63,7 +63,7 @@ type Products ={
               You can access my github repository by clicking the button below
             </p>
             <br/>
-            <a href="https://github.com/thebaggieboy" className="p-2 text-white bg-dark rounded"> Go to my github</a>
+            <a href="https://github.com/thebaggieboy" className="inline-flex rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700"> Go to my github</a>
           </div>
          
         </div>

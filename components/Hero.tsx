@@ -30,7 +30,10 @@ export default function Hero() {
               I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
              
               </motion.p> <br/>
-              <motion.a href="/Resume-Enimofe-Odujirin-2023.pdf" initial={{opacity:0}} animate={{opacity:1}} whileHover={{scale:1.5}} transition={{delay:0.8, duration:1.2}} className='inline-flex rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</motion.a>
+              <motion.a href="/Resume-Enimofe-Odujirin-2023.pdf" initial={{opacity:0}} animate={{opacity:1}}
+               whileHover={{scale:1.5}} 
+               transition={{delay:0.8, duration:1.2}} 
+               className='inline-flex rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</motion.a>
               
             </div>
           </div>
