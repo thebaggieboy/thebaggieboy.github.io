@@ -17,7 +17,7 @@ type Products ={
       {
         id: 1,
         name: 'QRCode Generator',
-        href: 'qrcode-generator-1m1u1egjh-thebaggieboy.vercel.app',
+        href: 'https://qrcode-generator-zeta.vercel.app/',
         description: 'A webapp for generating and saving QR codes for URLS. ',
         imageSrc: '/media/qr.png',
         imageAlt: 'cant display image',
