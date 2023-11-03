@@ -14,6 +14,15 @@ type Products ={
 
   export default function Portfolio({products}:any) {
       products = [
+        {
+          id: 4,
+          name: 'Genesis',
+          href: 'https://genesis-u1co.onrender.com/',
+          description: 'An ecommerce fashion web app for a clothing line. ',
+          imageSrc: '/media/genesis.png',
+          imageAlt: 'cant display image',
+          stack:"Django, HTML, CSS, JS"
+        },
       {
         id: 1,
         name: 'QRCode Generator',

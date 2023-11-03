@@ -22,7 +22,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Contact', href: '/contact' },
-  { name: 'Blog', href: 'https://baggieblog.onrender.com' },
+  //{ name: 'Blog', href: 'https://baggieblog.onrender.com' },
 ]
 
 
