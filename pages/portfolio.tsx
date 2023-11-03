@@ -16,10 +16,10 @@ type Products ={
       products = [
         {
           id: 4,
-          name: 'Genesis',
-          href: 'https://genesis-u1co.onrender.com/',
+          name: 'Exodox',
+          href: 'https://exodox.onrender.com/',
           description: 'An ecommerce fashion web app for a clothing line. ',
-          imageSrc: '/media/genesis.png',
+          imageSrc: '/media/exodox.png',
           imageAlt: 'cant display image',
           stack:"Django, HTML, CSS, JS"
         },
