@@ -9,14 +9,14 @@ const links = [
   export default function About() {
     return (
      <main className="">
-       <div className="relative  px-6 lg:px-8 isolate overflow-hidden">
+       <div className="relative px-6 lg:px-8 isolate overflow-hidden">
       
       <div className="mx-auto p-10 max-w-7xl px-6 lg:px-8">
       <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">What i do ?</h2>
         <div className="mx-auto max-w-2xl lg:mx-0">
 
           <p className="mt-3 text-sm leading-6 text-gray-800">
-          I am Enimofe Odujirin, a fullstack developer and cloud architect with 4 years of professional experience based in Lagos, Nigeria. My expertise lies in building efficient, high-traffic data-driven applications, including geolocation systems, by experimenting with APIs and database models.
+          I am Enimofe Odujirin, a fullstack developer and cloud architect with 4 years of professional experience. My expertise lies in building efficient, high-traffic data-driven applications, including geolocation systems, by experimenting with APIs and database models.
 
 
           </p> <br /><br />
