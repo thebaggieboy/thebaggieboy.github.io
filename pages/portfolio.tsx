@@ -15,6 +15,15 @@ type Products ={
   export default function Portfolio({products}:any) {
       products = [
         {
+          id: 5,
+          name: 'Altclan',
+          href: 'https://altclanui.vercel.app',
+          description: 'A community of aesthetics & fashion focused ecommerce applooking to connect people of all sub cultures and non-comformities. ',
+          imageSrc: '/media/alteclan_logo.jpg',
+          imageAlt: 'cant display image',
+          stack:"Django, Django Rest Framewotk, Nextjs, Typescript, Tailwind"
+        },
+        {
           id: 4,
           name: 'Exodox',
           href: 'https://exodox.onrender.com/',
@@ -82,9 +91,9 @@ type Products ={
 
         <div className="bg-white">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Products</h2>
+        <h2 className="sr-only">Projects</h2>
 
-        <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid  p-10 grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         {products.map((product) => (
             <a key={product.id} href={product.href} className="group">
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
@@ -94,12 +103,12 @@ type Products ={
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h2 className="mt-4 text-lg text-gray-700">{product.name}</h2>
+              <h2 className="mt-4 text-lg text-gray-700 font-bold">{product.name}</h2>
               <p className="mt-1 text-md font-medium text-gray-900">
                
-                <p className="lead font-semibold">{product.description}</p>
+                <p className="lead text-sm font-semibold" >{product.description}</p>
 
-                <p className="text-sm py-5 text-gray-500 bold">Tech Stack: {product.stack}</p>
+                <p className="text-xs py-5 text-gray-500 bold">Tech Stack: {product.stack}</p>
               </p>
             </a>
           ))}
