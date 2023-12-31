@@ -18,7 +18,7 @@ type Products ={
           id: 5,
           name: 'Altclan',
           href: 'https://altclanui.vercel.app',
-          description: 'A community of aesthetics & fashion focused ecommerce applooking to connect people of all sub cultures and non-comformities. ',
+          description: 'A community of aesthetics and a fashion focused ecommerce app looking to connect people of all sub cultures and non-comformities. ',
           imageSrc: '/media/altclan-sc.png',
           imageAlt: 'cant display image',
           stack:"Django, Django Rest Framewotk, Nextjs, Typescript, Tailwind"
