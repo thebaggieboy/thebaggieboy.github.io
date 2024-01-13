@@ -45,7 +45,7 @@ type Products ={
       {
         id: 3,
         name: 'baggieblog',
-        href: 'https://baggieblog.onrender.com',
+        href: 'https://blog-xkc3.onrender.com',
         description: 'A blog application with full authentication abilities and a WYSIWYG markdown editor for posting and reading contents posted by users.',
         imageSrc: '/media/baggieblog.png',
         imageAlt: 'cant display image.',
