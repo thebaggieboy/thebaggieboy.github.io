@@ -15,6 +15,15 @@ type Products ={
   export default function Portfolio({products}:any) {
       products = [
         {
+          id: 6,
+          name: 'MetaXchange',
+          href: 'https://meta-x-nft-marketplace.vercel.app/ethereum',
+          description: 'An NFT marketplace built on the base network ',
+          imageSrc: '/media/meta-x.png',
+          imageAlt: 'cant display image',
+          stack:"Viem, Resevoir SDK, Nextjs, Typescript, Tailwind"
+        },
+        {
           id: 5,
           name: 'Altclan',
           href: 'https://altclan.store',
