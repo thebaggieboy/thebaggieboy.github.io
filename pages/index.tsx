@@ -8,9 +8,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
+    <div style={{backgroundColor:"#14213d"}}>
     <Hero/>
     <About/>
 
+    </div>
+  
 
     </>
   )

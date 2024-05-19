@@ -30,14 +30,14 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="isolate bg-white">
+    <div className="isolate" style={{backgroundColor:"#14213d", color:'white'}}>
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       
       </div>
       <div className="px-4 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-2.5">
               <span className="font-bold text-lg"><Link href={'/'}>baggieboy</Link></span>
               
             </a>
@@ -54,22 +54,22 @@ export default function NavBar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-sm font-light leading-8 text-white hover:text-teal-600">
                 <Link href={item.href}>{item.name}</Link>
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="/Resume-Enimofe-Odujirin.pdf" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/Resume-Enimofe-Odujirin.pdf" className="text-xs font-semibold leading-6 p-2 bg-teal-900">
               Resume <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
-        <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-          <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+        <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen} >
+          <Dialog.Panel  style={{backgroundColor:"#14213d", color:'white'}} className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="">baggieboy</span>
+                <span className="font-bold">baggieboy</span>
                
               </a>
               <button
@@ -88,7 +88,7 @@ export default function NavBar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-light leading-7 text-white hover:bg-gray-400/10"
                     >
                       {item.name}
                     </a>

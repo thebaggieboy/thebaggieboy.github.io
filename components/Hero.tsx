@@ -7,40 +7,49 @@ import { motion } from 'framer-motion'
 export default function Hero() {
 
   return (
-
-      <main> 
-        <br /> <br />
-        <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-10 sm:py-20 lg:py-20">
-            <div className=" sm:mb-8 ">
-              <motion.div initial={{y:-250}} animate={{y:-10}} transition={{delay:0.4, duration:0.8}} className="relative rounded-full px-3 p-2 text-sm  leading-5 text-gray-700 ring-1 ring-gray-400/10 hover:ring-gray-900/20">
-               Learn more
-                <a href="#about"  className="font-semibold text-indigo-600 pl-2">
-                  <span className="absolute inset-0 " aria-hidden="true" />
-                   about me <span aria-hidden="true">&rarr;</span>
-                </a>
-              </motion.div>
-
-            </div> 
-            <div className=" mx-auto p-5">
-              <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.2, duration:0.6}} className="text-4xl  mt-1 font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Software Engineer & Fullstack Developer
-              </motion.h1>
-              <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2, duration:0.8}} className="mt-6 text-sm leading-6 text-gray-600">
-              I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
-             
-              </motion.p> <br/>
-              <motion.a href="/Resume-Enimofe-Odujirin.pdf" initial={{opacity:0}} animate={{opacity:1}}
-               whileHover={{scale:1.5}} 
-               transition={{delay:0.8, duration:1.2}} 
-               className='inline-flex rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700'>Check out my resume</motion.a>
-              
-            </div>
-          </div>
-       
+<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
+    <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+      <div className="max-w-xl mb-6">
+        <div>
+          <p className="inline-block px-3 py-px mb-4 text-sm font-bold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          Software Engineer & Fullstack Developer
+          </p>
         </div>
-      </main>
-
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+        If you can imagine it, I can make it <span className='text-teal-700 font-bold'>real</span>.
+       
+        </h2>
+        <p className="text-base text-gray-500 md:text-sm">
+        I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
+        </p>
+      </div>
+      <div className="flex items-center space-x-3">
+        <a href="/" className="w-32 transition duration-300 text-xs bg-teal-900  p-2 rounded-sm text-sm text-center text-white font-light hover:shadow-lg">
+             My resume
+        </a>
+        <a href="/" className="w-32 transition duration-300 text-xs bg-teal-900  p-2 rounded-sm text-sm text-center text-white font-light hover:shadow-lg">
+          Contact for hire
+        </a>
+      </div>
+    </div>
+    <div className="flex items-center justify-center lg:w-2/4">
+      <div className="w-6/12">
+        <img className="object-cover" src="/media/front-view.jpg" alt="" />
+      </div>
+  
+    </div>
+  </div>
+  <a
+    href="/"
+    aria-label="Scroll down"
+    className="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 duration-300 transform border border-gray-400 rounded-full hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 hover:shadow hover:scale-110"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+      <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
+    </svg>
+  </a>
+</div>
   )
 }
 

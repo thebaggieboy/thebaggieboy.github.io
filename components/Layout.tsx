@@ -7,9 +7,11 @@ export default function Layout({
   }) {
     return (
       <>
+       <div style={{backgroundColor:"#14213d"}}>
        <NavBar />
           {children}
         <Footer/>
+       </div>
       </>
       
        
