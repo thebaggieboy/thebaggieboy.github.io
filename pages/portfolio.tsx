@@ -27,7 +27,7 @@ type Products ={
           id: 4,
           name: 'Exodox',
           href: 'https://exodox.onrender.com/',
-          description: 'An ecommerce fashion web app for shopping a variety of items. ',
+          description: 'An ecommerce web app for shopping a variety of items. ',
           imageSrc: '/media/exodox.png',
           imageAlt: 'cant display image',
           stack:"Django, HTML, CSS, JS"

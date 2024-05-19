@@ -17,7 +17,7 @@ const links = [
       <h2 className="max-w-md mb-6 font-sans text-3xl tracking-tight text-teal-600  sm:text-4xl sm:leading-none xl:max-w-lg">
       What i do ?
       </h2> 
-      <p className="text-base text-gray-400 text-sm ">
+      <p style={{fontFamily:"Helvetica Nue, sans-serif"}} className="text-base text-gray-400 text-sm ">
       I am Enimofe Odujirin, a fullstack developer and blockchain developer with 4 years of professional experience. I excel in creating high-performance, data-driven applications, including advanced geolocation systems. I have a knack for experimenting with APIs and database models to build efficient, scalable solutions. Additionally, 
       I specialize in creating beautiful visualization dashboards based on datasets and other data sources.
       </p>
@@ -30,7 +30,7 @@ const links = [
         <img src="/media/web-design.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Frontend Development</h6>
-      <p className="mb-3 text-xs text-gray-400">
+      <p style={{fontFamily:"Helvetica Nue, sans-serif"}} className="mb-3 text-xs text-gray-400">
       I create static and dynamic websites, attractive landing pages, e-commerce sites, and other engaging front-end UIs.
        I also develop efficient single-page applications using React and NEXT.js.
       </p>
@@ -76,7 +76,7 @@ const links = [
       <img src="/media/backend.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Backend Development</h6>
-      <p className="mb-3 text-xs text-gray-400">
+      <p style={{fontFamily:"Helvetica Nue, sans-serif"}}  className="mb-3 text-xs text-gray-400">
       
 I build and maintain fast, scalable backend systems and APIs. 
 I also script cache controllers and load balancers to manage server traffic.
@@ -124,7 +124,7 @@ I also script cache controllers and load balancers to manage server traffic.
       <img src="/media/coins.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Blockchain Development</h6>
-      <p className="mb-3 text-xs text-gray-400">
+      <p style={{fontFamily:"Helvetica Nue, sans-serif"}} className="mb-3 text-xs text-gray-400">
       
 I specialize in blockchain development, crafting secure and efficient decentralized applications. From smart contracts to managing nodes.
       </p>
@@ -177,7 +177,7 @@ I specialize in blockchain development, crafting secure and efficient decentrali
       <img src="/media/computing.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Scripting</h6>
-      <p className="mb-3 text-xs text-gray-400">
+      <p style={{fontFamily:"Helvetica Nue, sans-serif"}} className="mb-3 text-xs text-gray-400">
       I write scripts that scrape the internet, perform custom tasks as instructed and build bots to perform any task needed. This range from web scrapers & crawlers to custom data science tools written in python.
       </p>
       <ul className="mb-4 -ml-1 space-y-2">
