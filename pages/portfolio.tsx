@@ -17,7 +17,7 @@ type Products ={
         {
           id: 5,
           name: 'Altclan',
-          href: 'https://altclanui.vercel.app',
+          href: 'https://altclan.store',
           description: 'A community of aesthetics and a fashion focused ecommerce app looking to connect people of all sub cultures and non-comformities. ',
           imageSrc: '/media/altclan-sc.png',
           imageAlt: 'cant display image',
@@ -27,7 +27,7 @@ type Products ={
           id: 4,
           name: 'Exodox',
           href: 'https://exodox.onrender.com/',
-          description: 'An ecommerce fashion web app for a clothing line. ',
+          description: 'An ecommerce fashion web app for shopping a variety of items. ',
           imageSrc: '/media/exodox.png',
           imageAlt: 'cant display image',
           stack:"Django, HTML, CSS, JS"
@@ -49,7 +49,7 @@ type Products ={
         description: 'A blog application with full authentication abilities and a WYSIWYG markdown editor for posting and reading contents posted by users.',
         imageSrc: '/media/baggieblog.png',
         imageAlt: 'cant display image.',
-        stack:"HTML, Bootstrap, FlASK, SQLAlchemy, SQLite"
+        stack:"HTML, Bootstrap, FlASK, SQLAlchemy, PostgreSQL"
       },
     
      

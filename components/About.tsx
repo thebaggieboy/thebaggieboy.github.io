@@ -11,26 +11,23 @@ const links = [
      <main className=""> 
 
 
-<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div className="px-4  py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
     <div className="lg:w-1/2">
       <h2 className="max-w-md mb-6 font-sans text-3xl tracking-tight text-teal-600  sm:text-4xl sm:leading-none xl:max-w-lg">
       What i do ?
-      </h2>
+      </h2> 
       <p className="text-base text-gray-400 text-sm ">
       I am Enimofe Odujirin, a fullstack developer and blockchain developer with 4 years of professional experience. I excel in creating high-performance, data-driven applications, including advanced geolocation systems. I have a knack for experimenting with APIs and database models to build efficient, scalable solutions. Additionally, 
       I specialize in creating beautiful visualization dashboards based on datasets and other data sources.
       </p>
     </div>
   
-  </div>
-  <div className="grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
+  </div> <br /><hr />
+  <div className="grid gap-8 mt-5 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
     <div>
       <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
-        <svg className="w-7 h-7 text-deep-purple-accent-400" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24">
-          <circle cx="11" cy="13" fill="none" r="9" stroke="currentColor"></circle>
-          <path d=" M21.955,18.005c1.089,2.145,1.378,3.816,0.622,4.572C20.92,24.234,14.799,20.799,9,15S-0.234,3.08,1.423,1.423 C2.18,0.666,3.853,0.956,6,2.047" stroke="currentColor" fill="none"></path>
-        </svg>
+        <img src="/media/web-design.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Frontend Development</h6>
       <p className="mb-3 text-xs text-gray-400">
@@ -76,11 +73,7 @@ const links = [
     </div>
     <div>
       <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
-        <svg className="w-7 h-7 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linecap="round">
-          <path d="M2,10C2,5.029,6.47,1,12,1c5.379,0,10,4.029,10,9S15.712,23,12,23C8.212,23,2,14.971,2,10Z" fill="none" stroke-width="2" stroke="currentColor"></path>
-          <path d="M5,9a6.529,6.529,0,0,1,4.393,1.607C10.705,11.92,10,15,10,15a6.59,6.59,0,0,1-3.436-1.564C5.022,11.894,5,9,5,9Z" fill="none" stroke-width="1.5" stroke="currentColor"></path>
-          <path d="M19,9a6.523,6.523,0,0,0-4.392,1.608C13.3,11.92,14,15,14,15a6.59,6.59,0,0,0,3.436-1.564C18.978,11.894,19,9,19,9Z" fill="none" stroke-width="1.5" stroke="currentColor"></path>
-        </svg>
+      <img src="/media/backend.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Backend Development</h6>
       <p className="mb-3 text-xs text-gray-400">
@@ -128,12 +121,7 @@ I also script cache controllers and load balancers to manage server traffic.
     </div>
     <div>
       <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
-        <svg className="w-7 h-7 text-deep-purple-accent-400" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24">
-          <path d="M8.291,18.709,4.182,22.818c-.419.419-1.43.086-2.258-.742s-1.161-1.839-.742-2.258l4.11-4.11" fill="none" stroke="currentColor"></path>
-          <ellipse cx="19.078" cy="4.922" fill="none" rx="2.5" ry="4.95" stroke="currentColor" transform="translate(2.107 14.932) rotate(-45)"></ellipse>
-          <path d="M9.185,9.815,5.3,13.7c-.7.7-.143,2.382,1.238,3.762S9.6,19.4,10.3,18.7l3.885-3.885" fill="none" stroke="currentColor"></path>
-          <path d="M15.578,1.422,9.422,7.578c-.976.976-.2,3.335,1.732,5.268s4.292,2.708,5.268,1.732l6.156-6.156" fill="none" stroke="currentColor"></path>
-        </svg>
+      <img src="/media/coins.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Blockchain Development</h6>
       <p className="mb-3 text-xs text-gray-400">
@@ -186,13 +174,7 @@ I specialize in blockchain development, crafting secure and efficient decentrali
     </div>
     <div>
       <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
-        <svg className="w-7 h-7 text-deep-purple-accent-400" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24">
-          <path d="M8,13l3,3,9.379-9.379a2.122,2.122,0,0,0,0-3h0a2.122,2.122,0,0,0-3,0Z" fill="none" stroke="currentColor"></path>
-          <polyline fill="none" points="10 11 10 6 6 2 3 5 7 9" stroke="currentColor"></polyline>
-          <polyline fill="none" points="15 12 15 17 19 21 22 18 18 14" stroke="currentColor"></polyline>
-          <path d="M8,23a7,7,0,0,1-7-7" fill="none" stroke="currentColor"></path>
-          <path d="M8,19a3,3,0,0,1-3-3" fill="none" stroke="currentColor"></path>
-        </svg>
+      <img src="/media/computing.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-2 font-semibold leading-5 text-white">Scripting</h6>
       <p className="mb-3 text-xs text-gray-400">
