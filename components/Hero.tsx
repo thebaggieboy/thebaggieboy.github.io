@@ -32,7 +32,7 @@ As a skilled software engineer specializing in full-stack development, I have a 
         </p>
       </div>
       <div className="flex items-center space-x-3">
-        <a href="/Resume-Enimofe-Odujirin.pdf" className="w-32 transition duration-300 text-xs bg-teal-900  p-2 rounded-sm text-sm text-center text-white font-light hover:shadow-lg">
+        <a href="/My-resume.pdf" className="w-32 transition duration-300 text-xs bg-teal-900  p-2 rounded-sm text-sm text-center text-white font-light hover:shadow-lg">
              My resume
         </a>
         <a href="/contact" className="w-32 transition duration-300 text-xs bg-teal-900  p-2 rounded-sm text-sm text-center text-white font-light hover:shadow-lg">

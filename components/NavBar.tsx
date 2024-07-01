@@ -60,7 +60,7 @@ export default function NavBar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="/Resume-Enimofe-Odujirin.pdf" className="text-xs font-semibold leading-6 p-2 bg-teal-900">
+            <a href="/My-resume.pdf" className="text-xs font-semibold leading-6 p-2 bg-teal-900">
               Resume <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
