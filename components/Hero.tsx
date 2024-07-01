@@ -21,7 +21,14 @@ export default function Hero() {
        
         </h2>
         <p  style={{fontFamily:"Poppins, sans-serif"}} className="text-base text-gray-500 md:text-sm">
-        I am an innovative Software Engineer adept at working with customers, team members and project leaders to accomplish and update tasks according to timelines.
+       
+
+
+
+As a skilled software engineer specializing in full-stack development, I have a proven track record of building robust, scalable applications. I am passionate about leveraging my technical expertise to deliver innovative solutions and drive project success.
+
+
+
         </p>
       </div>
       <div className="flex items-center space-x-3">
