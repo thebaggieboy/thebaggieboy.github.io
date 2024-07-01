@@ -80,7 +80,7 @@ type Products ={
               You can access my github repository by clicking the button below
             </p>
             <br/>
-            <a href="https://github.com/thebaggieboy" className="inline-flex rounded-lg text-sm font-bold py-3 px-4  bg-teal-600 hover:bg-slate-700"> Go to my github</a>
+            <a href="https://github.com/thebaggieboy" className="inline-flex rounded-lg text-xs py-3 px-4  bg-teal-900 font-bold text-white hover:bg-slate-500"> Go to my Github</a>
           </div>
          
         </div>

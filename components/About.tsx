@@ -14,10 +14,10 @@ const links = [
 <div className="px-4  py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
     <div className="lg:w-1/2">
-      <h2 className="max-w-md mb-6 font-sans text-5xl tracking-tight text-teal-600  sm:text-4xl sm:leading-none xl:max-w-lg">
-      What i do ?
+      <h2 className="max-w-md mb-6  font-bold font-sans text-5xl tracking-tight text-teal-600  sm:text-4xl sm:leading-none xl:max-w-lg">
+      What I Do ?
       </h2> 
-      <p style={{fontFamily:"Poppins, Sans-serif", lineHeight:2}} className="text-base text-white text-sm ">
+      <p style={{fontFamily:"Poppins, Sans-serif"}} className="text-gray-400 text-sm ">
       I am Enimofe Odujirin, a fullstack and blockchain developer with 4 years of professional experience.   I excel in crafting dynamic and efficient applications that drive business growth and user satisfaction.
   With a keen eye for detail and a commitment to excellence, I seamlessly integrate front-end aesthetics with back-end functionality. My proactive approach to problem-solving and continuous learning ensures that I deliver cutting-edge solutions tailored to meet and exceed client expectations.
 
@@ -28,7 +28,7 @@ const links = [
   </div> <br />
   <div className="grid gap-8 mt-5 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
     <div>
-      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
+      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-600">
         <img src="/media/web-design.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-3 leading-5 text-white">Frontend Development</h6>
@@ -38,7 +38,7 @@ const links = [
       </p>
       <ul className="mb-4 -ml-1 space-y-2">
         <li className="flex items-start text-teal-600 text-xs ">
-          <span className="mr-1">
+          <span className="mr-1 ">
             <svg className="w-5 h-5 mt-px text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
@@ -74,7 +74,7 @@ const links = [
 
     </div>
     <div>
-      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
+      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-600">
       <img src="/media/backend.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-3 leading-5 text-white">Backend Development</h6>
@@ -122,7 +122,7 @@ I also script cache controllers and load balancers to manage server traffic.
 
     </div>
     <div>
-      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
+      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-600">
       <img src="/media/coins.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-3 leading-5 text-white">Blockchain Development</h6>
@@ -175,7 +175,7 @@ I specialize in blockchain development, crafting secure and efficient decentrali
 
     </div>
     <div>
-      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
+      <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-600">
       <img src="/media/computing.png" style={{height:40}} alt="" />
       </div>
       <h6 className="mb-3 leading-5 text-white">Scripting</h6>
