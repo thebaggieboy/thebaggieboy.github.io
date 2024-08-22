@@ -15,6 +15,15 @@ type Products ={
   export default function Portfolio({products}:any) {
       products = [
         {
+          id: 7,
+          name: 'Valufire',
+          href: 'https://valufire.com/',
+          description: 'ValuFire Protection is a leading provider of ValuFire Protection solutions, specializing in fire alarms, emergency lighting, access control, CCTV, fire extinguishers, PAT testing, and fire safety training. With a team of experienced professionals, we are committed to enhancing safety and protecting lives and property from the risk of fire. ',
+          imageSrc: '/media/valufire.png',
+          imageAlt: 'cant display image',
+          stack:"Wordpress, Elementor, YoastSEO"
+        },
+        {
           id: 6,
           name: 'MetaXchange',
           href: 'https://meta-x-nft-marketplace.vercel.app/ethereum',
@@ -26,7 +35,7 @@ type Products ={
         {
           id: 5,
           name: 'Altclan',
-          href: 'https://altclan.store',
+          href: 'https://altclan.com/',
           description: 'A community of aesthetics and a fashion focused ecommerce app looking to connect people of all sub cultures and non-comformities. ',
           imageSrc: '/media/altclan-sc.png',
           imageAlt: 'cant display image',
@@ -36,7 +45,7 @@ type Products ={
           id: 4,
           name: 'Exodox',
           href: 'https://exodox.onrender.com/',
-          description: 'An ecommerce web app for shopping a variety of items. ',
+          description: 'An ecommerce web app for shopping a variety of items available for sale. ',
           imageSrc: '/media/exodox.png',
           imageAlt: 'cant display image',
           stack:"Django, HTML, CSS, JS"
