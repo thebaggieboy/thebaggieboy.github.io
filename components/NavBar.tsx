@@ -21,7 +21,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Shop Merch', href: 'https://thebaggieboy.store' },
+  { name: 'Shop Merch', href: 'https://thebaggieboy.store/' },
 
   { name: 'Contact', href: '/contact' },
   //{ name: 'Blog', href: 'https://baggieblog.onrender.com' },
