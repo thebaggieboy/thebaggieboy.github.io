@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <div className="p-10">
-            <p className=" text-white font-bold">&copy;2024 by thebaggieboy</p>
+        <div className="p-10 text-xs" style={{backgroundColor: "black"}}>
+            <p className=" text-white font-bold">&copy; <span className="">2024 <br/> Designed by <small className="text-xs text-white underline">Enimofe Odujirin</small></span> </p>
             <div  className=" text-white font-bold">
      
       <div className="flex items-center mt-1 space-x-3">

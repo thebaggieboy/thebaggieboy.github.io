@@ -7,7 +7,7 @@ export default function Layout({
   }) {
     return (
       <>
-       <div style={{backgroundColor:"#14213d", fontSize:"Helvetica Nue"}}>
+       <div style={{backgroundColor:"#14213d", lineHeight: "100%", letterSpacing: 1, fontFamily: "Poppins, sans-serif"}}>
        <NavBar />
           {children}
         <Footer/>

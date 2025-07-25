@@ -14,29 +14,13 @@ type Products ={
 
   export default function Portfolio({products}:any) {
       products = [
-        {
-          id: 7,
-          name: 'Valufire',
-          href: 'https://valufire.com/',
-          description: 'ValuFire Protection is a leading provider of ValuFire Protection solutions, specializing in fire alarms, emergency lighting, access control, CCTV, fire extinguishers, PAT testing, and fire safety training. With a team of experienced professionals, we are committed to enhancing safety and protecting lives and property from the risk of fire. ',
-          imageSrc: '/media/valufire.png',
-          imageAlt: 'cant display image',
-          stack:"Wordpress, Elementor, YoastSEO"
-        },
-        {
-          id: 6,
-          name: 'MetaXchange',
-          href: 'https://meta-x-nft-marketplace.vercel.app/ethereum',
-          description: 'An NFT marketplace built on the base network ',
-          imageSrc: '/media/meta-x.png',
-          imageAlt: 'cant display image',
-          stack:"Viem, Resevoir SDK, Nextjs, Typescript, Tailwind"
-        },
+   
+   
         {
           id: 5,
           name: 'Altclan',
           href: 'https://altclan.com/',
-          description: 'A community of aesthetics and a fashion focused ecommerce app looking to connect people of all sub cultures and non-comformities. ',
+          description: 'A community of aesthetics and a fashion focused e-commerce app looking to connect people of all sub cultures and non-comformities. ',
           imageSrc: '/media/altclan-sc.png',
           imageAlt: 'cant display image',
           stack:"Django, Django Rest Framewotk, Nextjs, Typescript, Tailwind"
@@ -45,7 +29,7 @@ type Products ={
           id: 4,
           name: 'Exodox',
           href: 'https://exodox.onrender.com/',
-          description: 'An ecommerce web app for shopping a variety of items available for sale. ',
+          description: 'An ecommerce web app for shopping a variety of items belonging to the brand Exodox. ',
           imageSrc: '/media/exodox.png',
           imageAlt: 'cant display image',
           stack:"Django, HTML, CSS, JS"
@@ -54,10 +38,10 @@ type Products ={
         id: 1,
         name: 'QRCode Generator',
         href: 'https://qrcode-generator-zeta.vercel.app/',
-        description: 'A webapp for generating and saving QR codes for URLS. ',
+        description: 'A webapp for quickly generating and saving QR codes for URLS. ',
         imageSrc: '/media/qr.png',
         imageAlt: 'cant display image',
-        stack:"vanilla js, HTML, QRcode API (pa11y)"
+        stack:"vanilla js, HTML, QRcode API"
       },
      
       {
@@ -79,14 +63,14 @@ type Products ={
 
     return (
       
-      <div className="relative isolate overflow-hidden  py-12 sm:py-32">
+      <div className="relative isolate overflow-hidden  py-12 sm:py-32" style={{lineHeight: "100%", letterSpacing: 1, fontFamily: "Poppins, sans-serif"}}>
          <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Portfolio</h2>
-            <p className="mt-6 text-sm leading-6 text-gray-600">
+            <p className="mt-6 text-xs leading-6 text-gray-600">
              
-          
-              You can access my github repository by clicking the button below
+              Here are some of the projects I have worked on in the past, you can check out the URLs
+              You can also access my github repository to see more of my codes and non-visual projects by clicking the button below
             </p>
             <br/>
             <a href="https://github.com/thebaggieboy" className="inline-flex rounded-lg text-xs py-3 px-4  bg-teal-900 font-bold text-white hover:bg-slate-500"> Go to my Github</a>

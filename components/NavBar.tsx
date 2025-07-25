@@ -40,7 +40,7 @@ export default function NavBar() {
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-2.5">
-              <span className="font-bold text-lg"><Link href={'/'}>baggieboy</Link></span>
+              <span className="font-bold text-lg"><Link href={'/'}>Thebaggieboy</Link></span>
               
             </a>
           </div>
@@ -62,8 +62,8 @@ export default function NavBar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="/My-resume.pdf" className="text-xs font-semibold leading-6 p-2 bg-teal-900">
-              Resume <span aria-hidden="true">&rarr;</span>
+            <a href="/My-resume.pdf" className="text-xs font-semibold leading-4 rounded p-3 bg-teal-900">
+             View my resume <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -71,7 +71,7 @@ export default function NavBar() {
           <Dialog.Panel  style={{backgroundColor:"#14213d", color:'white'}} className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="font-bold">baggieboy</span>
+                <span className="font-bold">Thebaggieboy</span>
                
               </a>
               <button

@@ -12,7 +12,7 @@ export default function Hero() {
     <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
       <div className="max-w-xl mb-6">
         <div>
-          <p style={{fontFamily:"Helvetica Nue, sans-serif"}} className="inline-block px-3 py-px mb-4 text-sm font-bold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p style={{lineHeight: "100%", letterSpacing: 1, fontFamily: "Poppins, sans-serif"}} className="inline-block px-3 py-px mb-4 text-sm font-bold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
           Software Engineer & Fullstack Developer
           </p>
         </div>

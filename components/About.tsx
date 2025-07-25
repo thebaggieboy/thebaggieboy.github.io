@@ -8,7 +8,7 @@ const links = [
   
   export default function About() {
     return (
-     <main className=""> 
+     <main className="" style={{lineHeight: "100%", letterSpacing: 1, fontFamily: "Poppins, sans-serif"}}> 
 
 
 <div className="px-4  py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -17,7 +17,7 @@ const links = [
       <h2 className="max-w-md mb-6  font-bold font-sans text-5xl tracking-tight text-teal-600  sm:text-4xl sm:leading-none xl:max-w-lg">
       What I Do ?
       </h2> 
-      <p style={{fontFamily:"Poppins, Sans-serif"}} className="text-gray-400 text-sm ">
+      <p style={{fontFamily:"Poppins, Sans-serif"}} className="text-gray-400 text-xs ">
       I am Enimofe Odujirin, a fullstack and blockchain developer with 4 years of professional experience.   I excel in crafting dynamic and efficient applications that drive business growth and user satisfaction.
   With a keen eye for detail and a commitment to excellence, I seamlessly integrate front-end aesthetics with back-end functionality. My proactive approach to problem-solving and continuous learning ensures that I deliver cutting-edge solutions tailored to meet and exceed client expectations.
 
